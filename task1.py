@@ -25,11 +25,9 @@ deposits = [200,200,200,200,200,200,200,200,200,200,200,200]            # final:
 import math
 import os
 for i in range(len(deposits)):
-
     inter = 0.005*openBalance
     round(inter,2)
     openBalance = openBalance + deposits[i]
     openBalance = openBalance + inter
-
 round(openBalance,2)
 print(openBalance)
